@@ -1,0 +1,20 @@
+{
+	"name": "wikp/payment-mtgox-bundle",
+	"description": "Bundle for creating payment system based on MtGox.com (Bitcoin cryptocurrency",
+	"keywords": ["payment", "bitcoin"],
+	"homepage" "http://github.com/wikp/PaymentMtgoxBundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Piotr Wikieł",
+			"email": "piotr.wikiel@gmail.com"
+		}
+	],
+	"require": {
+		"jms/payment-core-bundle": "dev-master"
+	},
+	"autoload": {
+		"psr-0": "Wikp\\PaymentBitcoinBundle": ""
+	},
+	"target-dir": "Wikp/PaymentBitcoinBundle"
+}
