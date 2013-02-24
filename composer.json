@@ -19,7 +19,7 @@
 		"symfony/browser-kit": "2.1.x-dev"
 	},
 	"autoload": {
-		"psr-0": { "Wikp\\PaymentBitcoinBundle": "" }
+		"psr-0": { "Wikp\\PaymentMtgoxBundle": "" }
 	},
-	"target-dir": "Wikp/PaymentBitcoinBundle"
+	"target-dir": "Wikp/PaymentMtgoxBundle"
 }
