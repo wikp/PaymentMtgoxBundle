@@ -11,3 +11,5 @@ this bundle).
 Full documentation and big refactor soon, so use only for testing
 purposes (I'm using this on production and everything works well, but my
 refactor implies your refactor ;) ).
+
+[mtgox]: https://mtgox.com/
