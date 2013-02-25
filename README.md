@@ -14,13 +14,13 @@ refactor implies your refactor ;) ).
 
 [mtgox]: https://mtgox.com/
 
-# Documentation
+## Documentation
 
-## Installation
+### Installation
 
 `PaymentMtgoxBundle` is installed as every symfony bundle (`composer require`, change in `app/AppKernel.php`)
 
-## Configuration
+### Configuration
 
 You should first configure [JMSPaymentCoreBundle][jms] (so only put `payments_secret` in `app/config/parameters.yml').
 Next get your api key and secret and also put them there. Something like that:
@@ -217,7 +217,7 @@ class DemoController extends Controller
 }
 ```
 
-# IpnController
+## IpnController
 
 When you configure bundle and do the payment, `IpnController` should mark it as finished when all the money will be
 transfered to your MtGox account.
